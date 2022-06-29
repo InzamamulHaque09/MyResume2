@@ -1,0 +1,213 @@
+html{
+    font-size: 62.5%;
+}
+body{
+
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+.navigation{
+    display: flex;
+    height: 5.0rem;
+    font-size: 1.2rem;
+    margin-top: 3.0rem;
+    list-style: none;
+}
+a{
+    margin:1.0rem 0.5rem; 
+    text-decoration: none;
+  
+}
+
+a:hover{
+    color: black;
+}
+#img{
+  margin:0rem 5.0rem;
+  height: 2.0rem;
+  width:1.0rem;
+  border-radius: 2.0rem;
+ transform: rotate(30deg)
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    margin:0px 0.5rem;
+}
+header::before{
+    background: url('https://source.unsplash.com/collection/190727/1600x900') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+section{
+    display: flex;
+    margin-top: 5.0rem;
+}
+.showcase{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    height: 30.0rem;
+    justify-content: center;
+    list-style: none;
+
+}
+.showcase a:hover{
+    color: black;
+}
+.box{
+    margin:1.0rem 2.0rem; 
+    text-decoration: none;
+    border-radius: 1.5rem;
+    background-color: rgb(224, 175, 28);
+    text-align: center;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+
+   align-items: center;
+    height: 30.0rem;
+    text-align: center;
+    width: 100.0rem;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.Links{
+    width: 100%;
+    height:10.0rem;
+ 
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+   color:black
+
+}
+.end a{
+  font-size: 1.2rem;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(0, 255, 119);
+    border-radius: 1.0rem;
+
+}
+.end a:hover{
+    color: black;
+}
+footer{
+display: flex;
+position: absolute;
+
+flex-direction:column ;
+
+align-items: center;
+    width: 100%;
+  bottom: 0px;
+    text-align: center;
+    color:black
+   
+}
+@media(max-width:41.4rem )
+{
+    html{
+        font-size: 55%;
+    }
+    #img{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media(max-width:76.8rem)
+{
+    html{
+        font-size: 45%;
+    }
+    #img{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media(max-width:28rem)
+{
+    html{
+        font-size: 45%;
+    }
+    #img{
+        margin:0rem 1.0rem;
+        height: 2.0rem;
+        width:2.0rem;
+        border-radius: 2.0rem;
+       transform: rotate(30deg)
+      }
+      .contact{
+        display: flex;
+        flex-direction: column;
+        margin:0px 0.2rem;
+        font-size: 1rem;
+    }
+}
+@media(width:54rem)
+{
+    html{
+        font-size: 45%;
+    }
+    #img{
+        margin:0rem 16rem;
+        height: 2.0rem;
+        width:2.0rem;
+        border-radius: 2.0rem;
+       transform: rotate(30deg)
+      }
+      .contact{
+        display: flex;
+        flex-direction: column;
+        margin:0px 0.2rem;
+        font-size: 1rem;
+    }
+}
+@media(width:91.2rem)
+{
+    html{
+        font-size: 45%;
+    }
+    #img{
+        margin:0rem 42rem;
+        height: 2.0rem;
+        width:2.0rem;
+        border-radius: 2.0rem;
+       transform: rotate(30deg)
+      }
+      .contact{
+        display: flex;
+        flex-direction: column;
+        margin:0px 0.2rem;
+        font-size: 1rem;
+    }
+}
+@media(max-width:36rem)
+{
+    html{
+        font-size: 45%;
+    }
+    #img {
+        margin: 0rem 5rem;
+        height: 2rem;
+        width: 2rem;
+        border-radius: 2rem;
+        transform: rotate(30deg);
+    }
+      .contact{
+        display: flex;
+        flex-direction: column;
+        margin:0px 2rem;
+        font-size: 1rem;
+    }
+}
